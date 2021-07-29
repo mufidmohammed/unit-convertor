@@ -1,0 +1,93 @@
+body {
+  background-color: #efefef;
+}
+
+div.content {
+  padding: 20px;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.title {
+  margin: 20px 0;
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+}
+
+div.content div.unit {
+  background-color: #4c9c60;
+  color: #fff;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 6px 10px;
+}
+
+.unit a {
+  color: #fff;
+  text-decoration: none;
+}
+.back-home {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.container {
+  background-color: #fff;
+  border: 3px groove #fff;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+form {
+  display: grid;
+  place-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+select-group {
+  width: 200px;
+  padding: 6px 10px;
+  display: inline-block;
+}
+
+select {
+  text-align: right;
+}
+
+.label {
+  text-align: left;
+  display: inline-block;
+  width: 40px;
+}
+
+div.input-select {
+  margin-left: 20px;
+  display: none;
+  width: 200px;
+}
+
+.row-2 {
+  margin: 20px 0;
+}
+
+.submit-button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  color: #069;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  text-decoration: underline;
+}
